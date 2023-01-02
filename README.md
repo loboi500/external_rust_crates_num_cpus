@@ -1,28 +1,3 @@
-# num_cpus
-
-[![crates.io](http://meritbadge.herokuapp.com/num_cpus)](https://crates.io/crates/num_cpus)
-[![Travis CI Status](https://travis-ci.org/seanmonstar/num_cpus.svg?branch=master)](https://travis-ci.org/seanmonstar/num_cpus)
-[![AppVeyor status](https://ci.appveyor.com/api/projects/status/qn8t6grhko5jwno6?svg=true)](https://ci.appveyor.com/project/seanmonstar/num-cpus)
-
-- [Documentation](https://docs.rs/num_cpus)
-- [CHANGELOG](CHANGELOG.md)
-
-Count the number of CPUs on the current machine.
-
-## Usage
-
-Add to Cargo.toml:
-
-```toml
-[dependencies]
-num_cpus = "1.0"
-```
-
-In your `main.rs` or `lib.rs`:
-
-```rust
-extern crate num_cpus;
-
-// count logical cores this process could try to use
-let num = num_cpus::get();
-```
+version https://git-lfs.github.com/spec/v1
+oid sha256:12451d6905fe9cdac206410de8071b562e5ea936b6e55a19ac97982831a0fcdb
+size 725
